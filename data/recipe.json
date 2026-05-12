@@ -1,0 +1,57 @@
+{
+  "title": "Pudding de pain perdu au parmesan",
+
+  "description": "Recette de pudding salé réalisée à base de pain perdu et de parmesan.",
+
+  "steps": [
+    {
+      "number": 1,
+      "text": "Préchauffer le four."
+    },
+    {
+      "number": 2,
+      "text": "Couper le pain en morceaux."
+    },
+    {
+      "number": 3,
+      "text": "Mélanger les œufs, le lait et le parmesan."
+    },
+    {
+      "number": 4,
+      "text": "Ajouter le pain dans la préparation."
+    },
+    {
+      "number": 5,
+      "text": "Verser la préparation dans un moule."
+    },
+    {
+      "number": 6,
+      "text": "Faire cuire au four jusqu’à obtenir une texture dorée."
+    }
+  ],
+
+  "ingredients": [
+    {
+      "name": "Pain de mie",
+      "barcode": "3256540001113"
+    },
+    {
+      "name": "Parmesan râpé",
+      "barcode": "8002713141007"
+    },
+    {
+      "name": "Lait demi-écrémé",
+      "barcode": "3155251205298"
+    },
+    {
+      "name": "Beurre doux",
+      "barcode": "3228021170016"
+    },
+    {
+      "name": "Œufs",
+      "barcode": "3270190207904"
+    }
+  ],
+
+  "source": "https://www.marmiton.org/recettes/recette_pudding-de-pain-perdu-au-parmesan_59289.aspx"
+}

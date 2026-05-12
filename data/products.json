@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Pain de mie",
+      "barcode": "3256540001113"
+    },
+    {
+      "name": "Parmesan râpé",
+      "barcode": "8002713141007"
+    },
+    {
+      "name": "Lait demi-écrémé",
+      "barcode": "3155251205298"
+    },
+    {
+      "name": "Beurre doux",
+      "barcode": "3228021170016"
+    },
+    {
+      "name": "Œufs",
+      "barcode": "3270190207904"
+    }
+  ]
+}
