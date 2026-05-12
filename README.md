@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projet IF08 - Pudding de pain perdu au parmesan
 
 ## Description
@@ -27,3 +28,6 @@ https://www.marmiton.org/recettes/recette_pudding-de-pain-perdu-au-parmesan_5928
 - `data/recipe.json` : recette et ingrédients
 - `data/products.json` : produits et codes-barres
 
+=======
+# Pudding-IF08
+>>>>>>> 43018eedd0190f13a758db1bf1c667e924c51faf
