@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pudding de pain perdu au parmesan</title>
 
-  <title>Pudding de pain perdu au parmesan</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+    <!-- Feuille de style personnalisée -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <main class="container mt-5">
+    <!-- ============================== NAVBAR ============================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"> Pain perdu au parmesan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ingredients">Ingrédients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#etapes">Étapes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h1 class="text-center mb-4">
-      Pudding de pain perdu au parmesan
-    </h1>
+    <!-- ============================== HEADER / HERO ============================== -->
+    <header id="hero" class="bg-warning-subtle py-5">
+        <div class="container text-center">
 
-    <section class="mb-5">
-      <h2>Description</h2>
+            <h1 class="display-3 fw-bold mb-3">Pudding de pain perdu au parmesan</h1>
 
-      <p>
-        Recette de pudding salé réalisée à base de pain perdu et de parmesan.
-      </p>
-    </section>
+            <!-- Score nutritionnel moyen (rempli par js/main.js) -->
+            <div id="nutrition-score" class="mb-4"></div>
 
-    <section class="mb-5">
-      <h2>Ingrédients</h2>
+            <!-- Image de la recette -->
+            <img
+                src="https://assets.afcdn.com/recipe/20201023/114532_w600.jpg"
+                alt="Image d'un pudding de pain perdu au parmesan"
+                class="img-fluid rounded shadow"
+                style="max-height: 420px; object-fit: cover; width: 100%;"
+            >
 
-      <div id="ingredients-list"></div>
-    </section>
+        </div>
+    </header>
 
-    <section class="mb-5">
-      <h2>Étapes</h2>
+    <!-- ============================== MAIN ============================== -->
+    <main class="container my-5">
 
-      <div id="steps-list"></div>
-    </section>
+        <!-- Section Ingrédients -->
+        <section id="ingredients" class="mb-5">
+            <h2 class="mb-4 border-bottom pb-2">🧀 Ingrédients</h2>
+            <div id="productList" class="row g-4">
+                <!-- Rempli dynamiquement par js/main.js -->
+            </div>
+        </section>
 
-    <section class="mb-5">
-      <h2>Score nutritionnel moyen</h2>
+        <hr>
 
-      <p id="nutrition-score">
-        Calcul en attente...
-      </p>
-    </section>
+        <!-- Section Étapes -->
+        <section id="etapes" class="mt-5">
+            <h2 class="mb-4 border-bottom pb-2">👨‍🍳 Étapes</h2>
+            <div id="steps" class="list-group list-group-flush">
+                <!-- Rempli dynamiquement par js/main.js -->
+            </div>
+        </section>
 
-  </main>
+    </main>
 
-  <!-- JavaScript -->
-  <script src="js/main.js"></script>
+    <!-- ============================== FOOTER ============================== -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <p class="mb-1 fw-bold"><small>Chef de projet : Yesmine FATHALLAH</small></p>
+            <p class="mb-1"><small>Pudding de pain perdu au parmesan &mdash; Projet équipe IF08</small></p>
+            <p class="mb-0"><small><a href="https://www.marmiton.org" class="text-warning">Source : Marmiton</a></small></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script principal -->
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
