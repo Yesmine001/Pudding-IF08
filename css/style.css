@@ -1,15 +1,69 @@
-body {
-    background-color: #f8f9fa;
+:root{
+    --brand: #0d6efd;
+    --muted: #6c757d;
+    --bg: #f8f9fa;
+    --card-bg: #ffffff;
+    --max-width: 1100px;
+    --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+    background-color:var(--bg);
+    font-family:var(--font-sans);
+    color:#222;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.6;
 }
 
-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+/* Containers */
+.container{max-width:var(--max-width)}
+
+/* Headings */
+h1{color:#111;text-align:center;font-size:clamp(1.6rem,2.6vw,2.6rem);margin-bottom:0.5rem}
+h2{font-size:clamp(1.25rem,2vw,1.75rem);color:#222}
+
+/* Sections (cards) */
+section{background:var(--card-bg);padding:1.25rem;border-radius:.5rem;margin-bottom:1.25rem}
+
+/* Images */
+img.img-fluid{max-height:520px;object-fit:cover;width:100%;display:block}
+
+/* Steps numbering for #steps using Bootstrap list-group */
+#steps{counter-reset:step}
+#steps .list-group-item{
+    counter-increment:step;
+    position:relative;
+    padding-left:4.25rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-left:4px solid transparent;
 }
+#steps .list-group-item::before{
+    content:counter(step);
+    position:absolute;left:0;top:50%;transform:translateY(-50%);
+    width:2.6rem;height:2.6rem;line-height:2.6rem;border-radius:50%;
+    background:var(--brand);color:#fff;text-align:center;font-weight:700;font-size:1rem;
+    box-shadow:0 2px 6px rgba(13,110,253,.18);
+}
+
+/* Small screens: tighten spacing and numbers */
+@media (max-width:576px){
+    #steps .list-group-item{padding-left:3.4rem}
+    #steps .list-group-item::before{width:2.1rem;height:2.1rem;line-height:2.1rem;font-size:.95rem}
+    img.img-fluid{max-height:360px}
+}
+
+/* Utility tweaks */
+.lead{font-size:1.05rem;color:var(--muted)}
+a{color:var(--brand)}
+
+/* Accessibility / responsiveness */
+table{width:100%;overflow-x:auto}
+.overflow-x-auto{overflow-x:auto}
+
+/* Small visual polish for footer */
+footer{font-size:.9rem}
+
