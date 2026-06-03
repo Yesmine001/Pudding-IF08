@@ -31,6 +31,22 @@
 
   "ingredients": [
     {
+      "name": "Poivre",
+      "barcode": "3166296550371"
+    },
+    {
+      "name": "Sel",
+      "barcode": "3252378000954"
+    },
+    {
+      "name": "Cumin",
+      "barcode": "3560070468947"
+    },
+    {
+      "name": "Baguette de pain rassis",
+      "barcode": "3276550087069"
+    },
+    {
       "name": "Lait demi-écrémé",
       "barcode": "3155251205298"
     },
@@ -55,7 +71,7 @@
       "barcode": "8002713141007"
     },
     {
-      "name": "Petits piments doux",
+      "name": "Petits piments doux verts",
       "barcode": "3166296550371"
     }
   ],
