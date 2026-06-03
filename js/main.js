@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <div class="d-flex justify-content-between align-items-center mt-auto border-top pt-2">
                             <span class="text-muted small fw-semibold">Nutri-Score</span>
-                            <span class="nutriscore-badge nutriscore-${grade}" title="Nutri-Score ${grade.toUpperCase()}">${grade === 'unknown' ? '?' : grade.toUpperCase()}</span>
+                            <span class="nutriscore-badge nutriscore-${grade}" title="Nutri-Score ${grade.toUpperCase()}">${grade === 'unknown' ? '-' : grade.toUpperCase()}</span>
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="mt-auto border-top pt-2">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="text-muted small">Nutri-Score</span>
-                                <span class="nutriscore-badge nutriscore-${grade}" title="Nutri-Score ${grade.toUpperCase()}">${grade === 'unknown' ? '?' : grade.toUpperCase()}</span>
+                                <span class="nutriscore-badge nutriscore-${grade}" title="Nutri-Score ${grade.toUpperCase()}">${grade === 'unknown' ? '-' : grade.toUpperCase()}</span>
                             </div>
                             <a href="https://world.openfoodfacts.org/product/${barcode}" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2 fw-semibold rounded-pill py-1 transition-all">
                                 Voir sur Open Food Facts ➔
