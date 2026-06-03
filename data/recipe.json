@@ -1,57 +1,64 @@
 {
   "title": "Pudding de pain perdu au parmesan",
-  "description": "Recette de pudding salé réalisée à base de pain perdu et de parmesan.",
+  "description": "Une recette anti-gaspillage savoureuse à base de pain rassis, de lait, d'œufs, de parmesan, d'olives noires et de tomates confites.",
+
   "steps": [
     {
       "number": 1,
-      "text": "Préchauffer le four."
+      "text": "Préchauffer le four à 180°C (thermostat 6)."
     },
     {
       "number": 2,
-      "text": "Couper le pain en morceaux."
+      "text": "Couper le pain dans un saladier en tranches fines et ajouter le lait. Laisser le pain s'imbiber et malaxer jusqu'à obtenir une pâte grossière. Remettre un peu de lait si certains morceaux restent secs."
     },
     {
       "number": 3,
-      "text": "Mélanger les œufs, le lait et le parmesan."
+      "text": "Battre les œufs dans un saladier et y incorporer le yaourt, les olives, les piments doux, les tomates coupées en morceaux et le parmesan. Poivrer et saler à convenance."
     },
     {
       "number": 4,
-      "text": "Ajouter le pain dans la préparation."
+      "text": "Vérifier que la préparation ne laisse pas dégorger trop de lait. Si nécessaire, ajouter quelques morceaux de pain sec pour assécher l'ensemble."
     },
     {
       "number": 5,
-      "text": "Verser la préparation dans un moule."
+      "text": "Verser dans un moule à cake ou un plat à gratin beurré. Saupoudrer d'un peu de parmesan et de graines de cumin puis enfourner environ 45 minutes à 180°C."
     },
     {
       "number": 6,
-      "text": "Faire cuire au four jusqu’à obtenir une texture dorée."
+      "text": "Laisser refroidir avant de servir."
     }
   ],
+
   "ingredients": [
     {
-      "name": "Poivre",
-      "barcode": "3166296550371"
+      "name": "Lait demi-écrémé",
+      "barcode": "3155251205298"
     },
     {
-      "name": "Pain de mie",
-      "barcode": "3256540001113"
+      "name": "Œufs",
+      "barcode": "3270190207904"
+    },
+    {
+      "name": "Tomates confites à l'huile",
+      "barcode": "3270190206716"
+    },
+    {
+      "name": "Olives noires à la grecque",
+      "barcode": "3017230000059"
+    },
+    {
+      "name": "Yaourt nature",
+      "barcode": "3560070471664"
     },
     {
       "name": "Parmesan râpé",
       "barcode": "8002713141007"
     },
     {
-      "name": "Lait demi-écrémé",
-      "barcode": "3155251205298"
-    },
-    {
-      "name": "Beurre doux",
-      "barcode": "3228021170016"
-    },
-    {
-      "name": "Œufs",
-      "barcode": "3270190207904"
+      "name": "Petits piments doux",
+      "barcode": "3166296550371"
     }
   ],
+
   "source": "https://www.marmiton.org/recettes/recette_pudding-de-pain-perdu-au-parmesan_59289.aspx"
 }
